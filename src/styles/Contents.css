@@ -149,7 +149,7 @@ li.popup-box .pop-btn button {
 }
 
 .popup-box-wrap2 ul li a figure.back {
-    background: url("/fnb/images/ic_selected.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_selected.svg") center / cover no-repeat;
 }
 
 .popup-box-wrap2 ul li a span {
@@ -262,12 +262,12 @@ li.popup-box .pop-btn button {
 }
 
 .menu-info-btn ul li.amount em span.minus {
-    background: url("/fnb/images/ic_minus.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_minus.svg") center / cover no-repeat;
     background-size: 20px;
 }
 
 .menu-info-btn ul li.amount em span.plus {
-    background: url("/fnb/images/ic_plus.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_plus.svg") center / cover no-repeat;
     background-size: 17px;
 }
 
@@ -338,7 +338,7 @@ li.popup-box .pop-btn button {
     transform: translateY(-50%);
     width: 27px;
     height: 27px;
-    background: url("/fnb/images/ic_time.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_time.svg") center / cover no-repeat;
 }
 
 .popup.type04 .popup-top .popup-top-in .time b {
@@ -601,7 +601,7 @@ li.popup-box.team ul li.name span {
     transform: translateY(calc(-50% + 20px));
     width: 15px;
     height: 15px;
-    background: url("/fnb/images/ic_close.svg") center center no-repeat;
+    background: url("../assets/images/ic_close.svg") center center no-repeat;
     background-size: 15px;
 }
 
@@ -672,7 +672,7 @@ h2.title01 span {
     font-size: 0;
     width: 160px;
     height: 53px;
-    background: url("/fnb/images/ic_logo_big.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_logo_big.svg") center / cover no-repeat;
 }
 
 .main-header a.num {
@@ -955,7 +955,7 @@ ul.cart-box li.title em span {
 ul.cart-box li.title em b {
     width: 12px;
     height: 12px;
-    background: url("/fnb/images/ic_close.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_close.svg") center / cover no-repeat;
     filter: invert(1);
 }
 
@@ -984,12 +984,12 @@ ul.cart-box li.num em.amount span {
 }
 
 ul.cart-box li.num em.amount span.minus {
-    background: url("/fnb/images/ic_minus.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_minus.svg") center / cover no-repeat;
     background-size: 20px;
 }
 
 ul.cart-box li.num em.amount span.plus {
-    background: url("/fnb/images/ic_plus.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_plus.svg") center / cover no-repeat;
     background-size: 17px;
 }
 
@@ -1281,7 +1281,7 @@ ul.cart-box li.num em.price b {
                         top: 0;
                         width: 50px;
                         height: 50px;
-                        background: url('/fnb/images/ic_printer.svg') no-repeat;
+                        background: url('../assets/images/ic_printer.svg') no-repeat;
                         background-size: 100%;
                         z-index: -1;
                     }
@@ -1329,7 +1329,7 @@ ul.cart-box li.num em.price b {
                         }
                         input[type=radio] + label {
                             background-repeat: no-repeat;
-                            background-image: url('/fnb/images/ic_radio.svg');
+                            background-image: url('../assets/images/ic_radio.svg');
                             background-size: 100%;
                             background-position: center center;
                             transition: 0.3s all;
@@ -1338,7 +1338,7 @@ ul.cart-box li.num em.price b {
                             display: inline-block;
                         }
                         input[type=radio]:checked + label {
-                            background-image: url('/fnb/images/ic_radio_on.svg');
+                            background-image: url('../assets/images/ic_radio_on.svg');
                             background-size: 35px 35px;
                         }
                     }
@@ -1445,7 +1445,7 @@ ul.cart-box li.num em.price b {
 
 .kitchen-header .header-content .order-tab li.on span::after {
     content: "";
-    background: url('/fnb/images/kitchen/icon_kitchen-order-list.svg') no-repeat;
+    background: url('../assets/images/kitchen/icon_kitchen-order-list.svg') no-repeat;
     position: absolute;
     left: -23px;
     top: 50%;
@@ -1500,7 +1500,7 @@ ul.cart-box li.num em.price b {
     width: 25px;
     height: 27px;
     font-size: 0;
-    background: url("/fnb/images/kitchen/icon_kitchen-close.svg") no-repeat center center;
+    background: url("../assets/images/kitchen/icon_kitchen-close.svg") no-repeat center center;
     background-size: 100%;
 }
 
@@ -1569,7 +1569,7 @@ ul.cart-box li.num em.price b {
     transform: translateY(calc(-50% + 20px));
     width: 15px;
     height: 15px;
-    background: url("/fnb/images/ic_close.svg") center center no-repeat;
+    background: url("../assets/images/ic_close.svg") center center no-repeat;
     background-size: 15px;
 }
 
@@ -1829,14 +1829,14 @@ ul.cart-box li.num em.price b {
     position: absolute;
     right: 5px;
     top: 5px;
-    background: url("/fnb/images/kitchen/icon_kitchen-more-off.svg") no-repeat;
+    background: url("../assets/images/kitchen/icon_kitchen-more-off.svg") no-repeat;
     background-size: 100%;
     width: 17px;
     height: 17px;
 }
 
 .list-contents .order-list ul.order-list-body li.body-wrap ul.list-wrapper li.list ul.order-wrap li.on div::after {
-    background: url("/fnb/images/kitchen/icon_kitchen-more.svg") no-repeat;
+    background: url("../assets/images/kitchen/icon_kitchen-more.svg") no-repeat;
 }*/
 
 /* popup */

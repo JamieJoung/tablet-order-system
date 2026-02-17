@@ -69,36 +69,12 @@ body, html {
     background: var(--btn-basic);
 }
 
-.btn.hills a {
-    background: var(--btn-h);
-}
-
-.btn.valley a {
-    background: var(--btn-v);
-}
-
 .login-contents ul li.basic input[type="text"] {
     border-bottom: 1px solid #000;
 }
 
 .login-contents ul li.basic input[type="text"]::placeholder {
     color: var(--txt-basic);
-}
-
-.login-contents ul li.hills input[type="text"]::placeholder {
-    color: var(--txt-h);
-}
-
-.login-contents ul li.valley input[type="text"]::placeholder {
-    color: var(--txt-v);
-}
-
-.login-contents ul li.hills select {
-    color: var(--txt-h);
-}
-
-.login-contents ul li.valley select {
-    color: var(--txt-v);
 }
 
 /* popup - common */
@@ -155,7 +131,7 @@ body, html {
     position: absolute;
     right: 0;
     top: 0;
-    background: url("/fnb/images/ic_close.svg") center center no-repeat;
+    background: url("../assets/images/ic_close.svg") center center no-repeat;
     filter: invert(1);
     width: 23px;
     height: 23px;
@@ -183,7 +159,7 @@ body, html {
     transform: translateY(-50%);
     width: 36px;
     height: 36px;
-    background: url("/fnb/images/ic_people.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_people.svg") center / cover no-repeat;
 }
 
 .popup-wrap .popup .popup-top h2.icon2 {
@@ -199,7 +175,7 @@ body, html {
     transform: translateY(-50%);
     width: 27px;
     height: 27px;
-    background: url("/fnb/images/ic_order_list.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_order_list.svg") center / cover no-repeat;
     filter: invert(1);
 }
 
@@ -356,7 +332,7 @@ body, html {
     width: 164px;
     height: 54px;
     font-size: 0;
-    background: url("/fnb/images/ic_logo_big.svg") center / cover no-repeat;
+    background: url("../assets/images/ic_logo_big.svg") center / cover no-repeat;
 }
 
 .sub-header .state {
