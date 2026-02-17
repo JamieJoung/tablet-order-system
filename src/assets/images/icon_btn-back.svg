@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+    <defs>
+        <filter id="c3oqgnww2a" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="그룹 3957">
+        <g style="filter:url(#c3oqgnww2a)">
+            <rect data-name="사각형 2350" width="44" height="44" rx="10" transform="translate(9 6)" style="fill:#fff"/>
+        </g>
+        <g data-name="그룹 3958">
+            <path data-name="선 9" transform="rotate(135 10.301 28.394)" style="fill:none;stroke:#202020;stroke-linecap:round;stroke-width:2px" d="M0 0v18.45"/>
+            <path data-name="선 10" transform="rotate(-135 18.136 8.972)" style="fill:none;stroke:#202020;stroke-linecap:round;stroke-width:2px" d="M0 0v18.45"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/*---------------------------------------------------*/
+/*       Noto Sans KR(Korean) google webfont         */
+/*---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/*---------------------------------------------------*/
+
+/*---------------------------------------------------*/
+/*           Playfair Display google webfont         */
+/*---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*---------------------------------------------------*/
+
+/*---------------------------------------------------*/
+/*                 Montserrat webfont                */
+/*---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*---------------------------------------------------*/
+/*                 Pretendard webfont                */
+/*---------------------------------------------------*/
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 400;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 300;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-Light.otf") format('opentype');
+}
+
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 500;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-Medium.otf") format('opentype');
+}
+
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 600;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-SemiBold.otf") format('opentype');
+}
+
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 700;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-Bold.otf") format('opentype');
+}
+
+@font-face {
+    font-family:'Pretendard';
+    font-weight: 800;
+    font-style: normal;
+    src: url("/fnb/font/Pretendard-ExtraBold.otf") format('opentype');
+}
+
+/*---------------------------------------------------*/
+/*                  Reset Common                     */
+/*---------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul, li { list-style: none;}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*, :after, :before {box-sizing:border-box; /*flex-shrink:0;*/}
+*{margin:0; padding:0;/* font:inherit; color:inherit;*/}
+body, html{ width: 100%; height: 100%;}
+canvas, picture, svg, video {display:block;}
+img{ display: inline-block;}
+button, input, select, textarea {font:inherit; background-color:transparent;}
+h1, h2, h3, h4, h5, h6, p {overflow-wrap:break-word}
+:root { overflow-wrap:break-word;word-break:break-word;}
+a{ text-decoration: none; font:inherit; color:inherit;}
+
+button{ border: 0; cursor: pointer;}
+
+textarea {
+    resize: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+table {
+    table-layout: fixed;
+}
+
+/* input */
+input[type="text"], input[type="number"], input[type="password"] {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: var(--f20);
+    line-height: 3.125rem;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    text-align: center;
+    text-indent: 0;
+    font-size: var(--f28);
+    line-height: 3.125rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+    font-size: 1.25rem !important;
+}
+
+input:autofill,
+input:autofill:hover,
+input:autofill:focus,
+input:autofill:active {
+    -webkit-text-fill-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+    font-size: 1.25rem !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* select */
+select {
+    border: none;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    height: 50px;
+    line-height: 3.125rem;
+    font-size: var(--f20);
+    border-bottom: 1px solid #000;
+    font-weight: 500;
+    letter-spacing: -0.21px;
+}
+
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-transition: background-color 9999s ease-out;
+}
+
+select option {
+    text-align: center;
+    color: #000;
+}
+
+/* button */
+button {
+    border: none;
+}

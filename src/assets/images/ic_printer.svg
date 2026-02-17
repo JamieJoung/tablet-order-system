@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.333" height="50.333" viewBox="0 0 50.333 50.333">
+    <g data-name="vuesax/linear/printer">
+        <path d="M0 10.486h19.923V6.292C19.923 2.1 18.351 0 13.632 0h-7.34C1.573 0 0 2.1 0 6.292z" transform="translate(15.205 4.194)" style="stroke:#292d32;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        <path data-name="Vector" d="M16.778 0v8.389q0 6.292-6.292 6.292H6.292Q0 14.68 0 8.389V0z" transform="translate(16.778 31.458)" style="stroke:#292d32;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        <path data-name="Vector" d="M37.75 6.292v10.486q0 6.292-6.292 6.292h-4.194v-6.292H10.486v6.292H6.292Q0 23.069 0 16.778V6.292Q0 0 6.292 0h25.166q6.292 0 6.292 6.292z" transform="translate(6.292 14.68)" style="stroke:#292d32;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        <path data-name="Vector" d="M20.972 0H0" transform="translate(14.68 31.458)" style="stroke:#292d32;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        <path data-name="Vector" d="M0 0h6.292" transform="translate(14.68 23.069)" style="stroke:#292d32;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+    </g>
+</svg>
