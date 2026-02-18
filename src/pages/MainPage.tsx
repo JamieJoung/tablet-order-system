@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
+import CategoryTabs from "../components/menu/CategoryTabs.tsx";
 
 
 function MainPage() {
@@ -44,6 +45,7 @@ function MainPage() {
     return (
         <div className="back-wrap" id="mainWrap">
             <Header />
+            <CategoryTabs />
             <div className="login-contents">
                 <h2 className="title01">
                     <b>table no.</b>

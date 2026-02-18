@@ -13,7 +13,7 @@ function CategoryTabs( ){
     const [activeTab, setActiveTab] = useState(CATEGORY_DATA[0].id);
 
     return (
-        <div className="order-tab-wrap headerSet">
+        <div className="order-tab-wrap">
             <div className="order-tab-scroll tab1">
                 <ul>
                     {/* 배열을 map() 함수로 돌려서 동적으로 li를 생성 */}

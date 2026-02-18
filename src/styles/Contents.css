@@ -547,6 +547,7 @@ li.popup-box.team ul li.name span {
     max-width: 85%;
     width: 100%;
     margin: 0 auto;
+    padding-top: 250px;
 }
 
 .login-contents .logo {
@@ -662,22 +663,22 @@ h2.title01 span {
     padding: 0 50px;
 }
 
-.main-header a {
+.main-header button {
     display: block;
     font-size: var(--f20);
     text-transform: uppercase;
 }
 
-.main-header a.logo {
+.main-header button.logo {
     font-size: 0;
     width: 160px;
     height: 53px;
     background: url("../assets/images/ic_logo_big.svg") center / cover no-repeat;
 }
 
-.main-header a.num {
+.main-header button.num {
     padding: 8px 24px;
-    color: transparent;
+    color: var(--sub-color);
     line-height: 78px;
     background: transparent;
 }

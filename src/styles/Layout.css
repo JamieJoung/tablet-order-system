@@ -10,9 +10,6 @@
     --txt-basic: #d8d8d8;
     --font-en: "Playfair Display", serif;
 
-/*    --btn-h: #8183c6;
-    --btn-v: #248582;*/
-
     /* font-size */
     --f12: 0.75rem;
     --f13: 0.82rem;
@@ -35,7 +32,7 @@
 
 body, html {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: "Pretendard", 'Noto Sans KR', sans-serif;
     overflow: hidden;
     /*min-width: 1280px;*/
@@ -58,8 +55,7 @@ body, html {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     position: relative;
     background: var(--background);
 }
@@ -354,14 +350,9 @@ body, html {
 .order-tab-wrap {
     width: 100%;
     height: 150px;
-    position: fixed;
-    top: 78px;
     z-index: 50;
-
-    left: 0;
-
-    /*overflow: hidden;
-    white-space: nowrap;*/
+    position: absolute;
+    top: 100px;
 }
 
 .order-tab-scroll {
@@ -502,4 +493,9 @@ body.active, .order-tab-wrap-btm.active, .sub-header.active, .order-tab-wrap.act
 body:not(.active), .order-tab-wrap-btm:not(.active), .sub-header:not(.active), .order-tab-wrap:not(.active) {
     width: 100%;
     transition: all .2s ease-in-out;
+}
+
+.main-footer {
+    padding-top: 50px;
+    text-align: center;
 }
