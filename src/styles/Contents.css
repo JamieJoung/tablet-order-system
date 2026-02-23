@@ -188,7 +188,7 @@ li.popup-box .pop-btn button {
     object-fit: cover;
 }
 
-.menu-info-text .menu-state {
+.menu-info-text .menu-statue {
     display: flex;
     justify-content: flex-start;
     gap: 0 5px;
@@ -196,7 +196,7 @@ li.popup-box .pop-btn button {
     margin-bottom: 10px;
 }
 
-.menu-info-text .menu-state span {
+.menu-info-text .menu-statue span {
     text-transform: uppercase;
     font-size: var(--f13);
     color: #fff;
@@ -850,7 +850,7 @@ h2.title01 span {
     margin-top: 15px;
 }
 
-.menu-list .menu-state {
+.menu-list .menu-statue {
     display: flex;
     justify-content: flex-start;
     gap: 0 5px;
@@ -861,7 +861,7 @@ h2.title01 span {
     z-index: 1;
 }
 
-.menu-list .menu-state span {
+.menu-list .menu-statue span {
     text-transform: uppercase;
     font-size: var(--f13);
     color: #fff;
